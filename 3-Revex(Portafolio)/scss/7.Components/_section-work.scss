@@ -1,0 +1,22 @@
+.porcentaje{
+    font-size: 1.3em;
+    position: relative;
+    &::before,
+    &::after{
+        content: "";
+        display: block;
+        height: 4px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: -7px;
+        left: 0;
+    }
+    &::before{
+        background-color: #abaaba;
+        width: 100%;
+    }
+    &::after{
+        width: 75%;
+        background: $secon-color;
+    }
+}

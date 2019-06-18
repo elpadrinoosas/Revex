@@ -1,0 +1,27 @@
+// .card{
+//     padding: 3em 1em;
+// }
+.card--shadow{
+    box-shadow: 2px 2px 20px -2px #ababab;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.card--radius{
+    border-radius: .75em;
+}
+.card--padding{
+    padding: 1em;
+}
+.card__img{
+    border-radius: .75em .75em 0 0;
+}
+.card__text{
+    text-align: center;
+    padding: 1em;
+}
+
+.card__body,
+.card__footer{
+    padding: 1em;
+}
+

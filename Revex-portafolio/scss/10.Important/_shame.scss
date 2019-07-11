@@ -1,0 +1,55 @@
+.body{
+    margin-top: 80px;
+}
+:root{
+    font-size: 10px;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.titles--center{
+    align-items: center;
+}
+.section__title{
+    color: #dd2574;
+    margin: 0;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+}
+.section__subtitle{
+    font-size: 3.2em;
+    margin: 0;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+    span{
+        display: block;
+        color: #EF3C4F;
+    }
+}
+.section__subtitle--center{
+    text-align: center;
+}
+.section__sub-subtitle{
+    font-size: 1.7em;
+}
+
+
+
+
+
+.card__img--round{
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+}
+
+
+
+
+
+
+.section{
+    padding-top: 15em;
+}
